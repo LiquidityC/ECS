@@ -42,6 +42,8 @@ add_executable(testecs
 	test/TestComponent
 	test/TestUpdate
 	test/TestMessage
+	test/TestUpdateComponent
+	test/TestChangeComponent
 	test/TestECS
 	)
 
