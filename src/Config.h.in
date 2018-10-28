@@ -1,0 +1,7 @@
+#pragma once
+
+#define APP_TITLE		"@ecs_TITLE@"
+#define MAJOR_VERSION	@ecs_MAJOR_VERSION@
+#define MINOR_VERSION	@ecs_MINOR_VERSION@
+#define PATCH_VERSION	@ecs_PATCH_VERSION@
+#define RELEASE_TYPE	"@ecs_RELEASE_TYPE@"
