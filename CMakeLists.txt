@@ -54,7 +54,7 @@ add_test(NAME testecs
 
 # LINT:
 if (CPPCHECK_FOUND)
-	add_custom_target(lint
+	add_custom_target(lintecs
 		COMMAND ${CPPCHECK_EXECUTABLE} --force --language=c++ --template=gcc --error-exitcode=1 --quiet --enable=warning,style,performance,portability,information,missingInclude src/
 		WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}
 		COMMENT "Run cppcheck"
