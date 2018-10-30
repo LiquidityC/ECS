@@ -33,7 +33,6 @@ set(CMAKE_CXX_FLAGS_DEBUG
 add_library(ecs SHARED
 	src/Entity
 	src/Component
-	src/Blank
 	)
 
 if (ECS_TESTS_ENABLED)
