@@ -34,6 +34,7 @@ namespace ECS
 
 				void addComponent(Component<T, U> *comp) {
 					components.push_back(comp);
+					comp->setEntity(this);
 				};
 
 				void transmit(const U& msg) {

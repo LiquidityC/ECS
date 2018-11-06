@@ -8,7 +8,7 @@ namespace ECS
 	template<typename T, typename U>
 		class Component
 		{
-			private:
+			protected:
 				Entity<T, U> *entity;
 
 			public:
@@ -22,7 +22,7 @@ namespace ECS
 				};
 				virtual ~Component() { };
 
-				void setEntity(const Entity<T, U> *e) {
+				void setEntity(Entity<T, U> *e) {
 					this->entity = e;
 				};
 
